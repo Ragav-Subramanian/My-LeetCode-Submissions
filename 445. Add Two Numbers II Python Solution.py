@@ -22,3 +22,4 @@ class Solution:
             ans=node
             num3//=10
         return ans
+        
