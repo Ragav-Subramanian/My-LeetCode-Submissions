@@ -20,7 +20,7 @@ class Solution:
                     stack.append((operant*num))
                 elif pre_op == '/':
                     operant = stack.pop()
-                    stack.append(math.trunc(operant/num))
+                    stack.append(int(operant/num))
                 num = 0
                 pre_op = c
         return sum(stack)
